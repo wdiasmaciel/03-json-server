@@ -30,8 +30,14 @@
    npm install cors
    ```
 
-7) A versão do JSON-Server no arquivo package.json deve ser "^0.17.0". 
-   Exemplo:
+7) A versão do JSON-Server deve ser "^0.17.0".
+```
+json-server --version
+``` 
+
+8) Caso a versão do JSON-Server não seja "^0.17.0", isso deve ser informado no arquivo package.json. 
+
+Exemplo:
    ```
    {
      "dependencies": {
@@ -40,7 +46,7 @@
      }
    }
    ```
-   Caso não seja essa versão, atualizar o arquivo package.json e executar o comando:
+   Então, após atualizar o arquivo package.json, executar o comando:
    ```
    npm install
    ```
