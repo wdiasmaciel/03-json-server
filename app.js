@@ -18,7 +18,7 @@
 */
 
 
-const urlCidades = "https://stunning-yodel-wr9wj9jjrrj729996-3333.app.github.dev/"; //'http://localhost:3333/cidades'
+const urlCidades = "https://solid-spoon-97qp4q447799h7gq6-5500.app.github.dev/"; //'http://localhost:3333/cidades'
 console.log(urlCidades);
 let cidades = []
 
