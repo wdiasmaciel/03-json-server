@@ -52,17 +52,17 @@
       ```
 
 9) Na raiz do projeto, criar "db/db.json":
- ```
-  {
-    "cidades": [
-      {"id": 1, "cidade": "Belo Horizonte", "estado": "MG", "população": 3800000},
-      {"id": 2, "cidade": "São Paulo", "estado": "SP", "população": 11800000},
-      {"id": 3, "cidade": "Rio de Janeiro", "estado": "RJ", "população": 5300000},
-      {"id": 4, "cidade": "Curitiba", "estado": "PR", "população": 1200000},
-      {"id": 5, "cidade": "Fortaleza", "estado": "CE", "população": 2100000}
-    ]
-  }
- ```
+    ```
+     {
+       "cidades": [
+         {"id": 1, "cidade": "Belo Horizonte", "estado": "MG", "população": 3800000},
+         {"id": 2, "cidade": "São Paulo", "estado": "SP", "população": 11800000},
+         {"id": 3, "cidade": "Rio de Janeiro", "estado": "RJ", "população": 5300000},
+         {"id": 4, "cidade": "Curitiba", "estado": "PR", "população": 1200000},
+         {"id": 5, "cidade": "Fortaleza", "estado": "CE", "população": 2100000}
+       ]
+     }
+    ```
  
 10) Executar o arquivo server.js:
    ```
