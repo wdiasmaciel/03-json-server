@@ -38,7 +38,7 @@
 8) Caso a versão do JSON-Server não seja "^0.17.0", isso deve ser informado no arquivo package.json. 
 
    Exemplo:
-      ```
+      ```json
       {
         "dependencies": {
           "cors": "^2.8.5",
@@ -52,7 +52,7 @@
       ```
 
 9) Na raiz do projeto, criar "db/db.json":
-    ```
+    ```json
      {
        "cidades": [
          {"id": 1, "cidade": "Belo Horizonte", "estado": "MG", "população": 3800000},
