@@ -17,18 +17,18 @@
  * 4) json-server --watch db/db.json --port 3333
 */
 
-const url = "https://solid-spoon-97qp4q447799h7gq6-5500.app.github.dev"
+const url = "https://solid-spoon-97qp4q447799h7gq6-5500.app.github.dev";
 const urlCidades = url + "/db/db.json"; 
 console.log(urlCidades);
-let cidades = []
+let cidades = [];
 
 function carregarDadosJSONServer(funcaoImprimirDadosDoBancoDeDados) {
   fetch(urlCidades)
-    .then(function (response) { return response.json() })
+    .then(function (response) { return response.json(); })
     .then(function (dados) {
-      cidades = dados
-      console.log('Dados carregados:')
-      console.log(cidades)
-      funcaoImprimirDadosDoBancoDeDados()
+      cidades = dados.cidades;
+      console.log('Dados carregados:');
+      console.log(cidades);
+      funcaoImprimirDadosDoBancoDeDados();
     })
 }

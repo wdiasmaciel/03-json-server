@@ -11,6 +11,8 @@
     <script src="app.js"></script>
 
     <script>
+        carregarDadosJSONServer (apresentarDadosNoElementoDivTela);
+
         function apresentarDadosNoElementoDivTela () {
             let tela = document.getElementById('tela')
             
@@ -31,8 +33,6 @@
                 tela.innerHTML = `Cidade não encontrada`
             }
         }
-        
-        carregarDadosJSONServer (apresentarDadosNoElementoDivTela)
     </script>
 </body>
 </html>
