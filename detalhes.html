@@ -11,15 +11,15 @@
     <script src="app.js"></script>
 
     <script>
-        carregarDadosJSONServer (apresentarDadosNoElementoDivTela);
+        carregarDadosJSONServer(apresentarDadosNoElementoDivTela);
 
-        function apresentarDadosNoElementoDivTela () {
+        function apresentarDadosNoElementoDivTela() {
             let tela = document.getElementById('tela')
             
             let params = new URLSearchParams(window.location.search)
             let id = params.get('id')
 
-            cidade = cidades.find(function (elem) { return elem.id == id })
+            cidade = cidades.find(function(elem) { return elem.id == id })
 
             if (cidade) {
                 tela.innerHTML = `<p>

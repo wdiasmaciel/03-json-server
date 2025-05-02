@@ -24,8 +24,8 @@ let cidades = [];
 
 function carregarDadosJSONServer(funcaoImprimirDadosDoBancoDeDados) {
   fetch(urlCidades)
-    .then(function (response) { return response.json(); })
-    .then(function (dados) {
+    .then(function(response) { return response.json(); })
+    .then(function(dados) {
       cidades = dados.cidades;
       console.log('Dados carregados:');
       console.log(cidades);
