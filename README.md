@@ -22,7 +22,7 @@
 
 5) Instalar o JSON-Server:
    ```
-   npm install -g json-server --save
+   npm install -g --save json-server 
    ```
 
 6) Instalar o middleware CORS (Cross-Origin Resource Sharing):
