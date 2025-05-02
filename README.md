@@ -31,27 +31,27 @@
    ```
 
 7) A versão do JSON-Server deve ser "^0.17.0".
-```
-json-server --version
-``` 
+   ```
+   json-server --version
+   ``` 
 
 8) Caso a versão do JSON-Server não seja "^0.17.0", isso deve ser informado no arquivo package.json. 
 
-Exemplo:
-   ```
-   {
-     "dependencies": {
-       "cors": "^2.8.5",
-       "json-server": "^0.17.0"
-     }
-   }
-   ```
-   Então, após atualizar o arquivo package.json, executar o comando:
-   ```
-   npm install
-   ```
+   Exemplo:
+      ```
+      {
+        "dependencies": {
+          "cors": "^2.8.5",
+          "json-server": "^0.17.0"
+        }
+      }
+      ```
+      Então, após atualizar o arquivo package.json, executar o comando:
+      ```
+      npm install
+      ```
 
-6) Na raiz do projeto, criar "db/db.json":
+9) Na raiz do projeto, criar "db/db.json":
  ```
   {
     "cidades": [
@@ -64,7 +64,7 @@ Exemplo:
   }
  ```
  
-8) Executar o arquivo server.js:
+10) Executar o arquivo server.js:
    ```
    node server.js
    ```
