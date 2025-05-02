@@ -17,8 +17,8 @@
  * 4) json-server --watch db/db.json --port 3333
 */
 
-const url = "https://solid-spoon-97qp4q447799h7gq6-5500.app.github.dev";
-const urlCidades = url + "/db/db.json"; 
+const url = "https://01c72ea2-dc83-4f76-b4e6-f998346028e2-00-1fmk7t8gu8uk4.picard.replit.dev";
+const urlCidades = url + "/cidades"; 
 console.log(urlCidades);
 let cidades = [];
 
@@ -26,7 +26,8 @@ function carregarDadosJSONServer(funcaoImprimirDadosDoBancoDeDados) {
   fetch(urlCidades)
     .then(function(response) { return response.json(); })
     .then(function(dados) {
-      cidades = dados.cidades;
+      //cidades = dados.cidades;
+      cidades = dados;
       console.log('Dados carregados:');
       console.log(cidades);
       funcaoImprimirDadosDoBancoDeDados();
